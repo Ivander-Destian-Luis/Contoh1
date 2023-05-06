@@ -1,5 +1,14 @@
-public class Tugsa{
+public class Tugas{
     private String npm;
+    private String nama;
+
+    public String getNama() {
+        return this.nama;
+    }
+
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
 
     public String getNpm() {
         return this.npm;
